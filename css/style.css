@@ -173,6 +173,16 @@ h6 {
     padding: 3rem;
 }
 
+.list li {
+    padding: .5rem 0;
+    border-bottom: #555 dotted 1px;
+    width: 90%;
+}
+
+.list li a:hover {
+    color: var(--primary-color) !important;
+}
+
 /* navigation */
 #main-nav {
     background: #fff;
@@ -305,4 +315,14 @@ h6 {
     padding: .5rem;
     text-align: center;
     font-size: 00.75rem;
+}
+
+#main-footer .footer-container input[type='email'] {
+    width: 90%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#main-footer .footer-container input[type='submit'] {
+    width: 90%;
 }
